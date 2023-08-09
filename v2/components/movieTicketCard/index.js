@@ -7,15 +7,24 @@ import {
   ToastAndroid,
 } from 'react-native';
 import PropTypes from 'prop-types';
-import Clipboard from '@react-native-clipboard/clipboard';
+// import Clipboard from '@react-native-clipboard/clipboard';
+import {useClipboard} from '@react-native-community/clipboard';
 
 import createStyle from '../../utils/style';
 
 const MovieTicketCard = props => {
+  const [data, setString] = useClipboard();
 
-  const copyToClipboard = (item) => {
-    Clipboard.setString(item);
-  };
+  function copyToClipboard(item) {
+    // Clipboard.setString(item);
+    setString(item);
+    if (Platform.OS === 'android') {
+      ToastAndroid.show(
+        'Copiado para área de transferência',
+        ToastAndroid.SHORT,
+      );
+    }
+  }
 
   return (
     <TouchableOpacity
@@ -41,7 +50,7 @@ const MovieTicketCard = props => {
           <TouchableOpacity
             activeOpacity={0.75}
             onPress={() => {
-              copyToClipboard(item);
+              setString(item);
               if (Platform.OS === 'android') {
                 ToastAndroid.show(
                   'Copiado para área de transferência',

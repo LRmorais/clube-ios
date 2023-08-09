@@ -75,8 +75,7 @@ const PermissionsProvider = (props) => {
     ({
       [RNPermissions.RESULTS.GRANTED]: () => {},
       [RNPermissions.RESULTS.DENIED]: () => {},
-      // [RNPermissions.RESULTS.BLOCKED]: blockedFeedback,
-      [RNPermissions.RESULTS.BLOCKED]: () => {},
+      [RNPermissions.RESULTS.BLOCKED]: blockedFeedback,
       [RNPermissions.RESULTS.UNAVAILABLE]: unavailableFeedback,
     })[status](resource);
   }

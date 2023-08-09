@@ -1,6 +1,6 @@
 import React, { createContext, useContext as useReactContext, useRef, useState, useEffect, useLayoutEffect } from 'react';
 import { Keyboard } from 'react-native';
-import NetInfo from '@react-native-community/netinfo';
+import netInfo from '@react-native-community/netinfo';
 import analytics from '@react-native-firebase/analytics';
 import { AppEventsLogger } from 'react-native-fbsdk';
 
@@ -62,7 +62,7 @@ const Provider = (props) => {
   }, [recaptcha]);
 
   async function getOffers() {
-    let netState = await NetInfo.fetch();
+    let netState = await netInfo.fetch();
     if (!netState.isConnected || !netState.isInternetReachable) {
       setOffers({ error: 'unconnected' });
       return;

@@ -1,5 +1,5 @@
 import React, {createContext, useContext, useState, useEffect} from 'react';
-import Geolocation from '@react-native-community/geolocation';
+import geolocation from '@react-native-community/geolocation';
 import moment from 'moment';
 import Crypto from 'crypto-js';
 
@@ -118,7 +118,6 @@ const GlobalStateProvider = props => {
 
   useEffect(() => {
     let hasPermission = permissionsStatus?.location;
-
     if (!hasPermission) {
       setLocationError('permission');
     } else if (!deviceLocation) {
@@ -232,13 +231,11 @@ const GlobalStateProvider = props => {
 
   async function updateDeviceLocation() {
     if ((permissionsStatus || {}).location) {
-      Geolocation.setRNConfiguration({
-        authorizationLevel: 'auto',
+      geolocation.setRNConfiguration({
+        authorizationLevel: 'always',
       });
-
-      Geolocation.stopObserving();
-
-      Geolocation.watchPosition(setDeviceLocation, noop, {
+      geolocation.stopObserving();
+      geolocation.watchPosition(setDeviceLocation, noop, {
         maximumAge: 1000 * 60 * 45, // 45min
         distanceFilter: 5,
         enableHighAccuracy: false,

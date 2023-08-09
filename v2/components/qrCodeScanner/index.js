@@ -1,7 +1,7 @@
 import React, {useState, useLayoutEffect} from 'react';
 import {LogBox, View, Image} from 'react-native';
 import RNPermissions from 'react-native-permissions';
-import NetInfo from "@react-native-community/netinfo";
+import netInfo from '@react-native-community/netinfo';
 import {RNCamera} from 'react-native-camera';
 import PropTypes from 'prop-types';
 
@@ -25,7 +25,7 @@ const QRCodeScanner = props => {
   }[permissionResult];
 
   useLayoutEffect(() => {
-    let unsubscribe = NetInfo.addEventListener(state => {
+    let unsubscribe = netInfo.addEventListener(state => {
       setCanFetch(state.isConnected && state.isInternetReachable);
     });
     return unsubscribe;

@@ -31,19 +31,14 @@ const Provider = props => {
   async function requestLocationPermission() {
     let status = await request('location');
     if (status !== RNPermissions.RESULTS.GRANTED) {
-      dispatchRecord('Permissão não condedida', {
-        value: 'location',
-      });
-      goToNextCard();
+      return;
     }
 
-    if(status === RNPermissions.RESULTS.GRANTED){
-      dispatchRecord('Permissão concedida', {
-        value: 'location',
-      });
-      updatePermissionsStatus();
-      requestBackgroundLocation();
-    }
+    dispatchRecord('Permissão concedida', {
+      value: 'location',
+    });
+    updatePermissionsStatus();
+    requestBackgroundLocation();
   }
 
   async function requestBackgroundLocation() {
