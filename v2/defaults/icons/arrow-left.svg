@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="14px" viewBox="0 0 8 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>ArrowLeft</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filme" transform="translate(-48.000000, -630.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M48.2121379,636.455786 L54.0789477,630.2253 C54.3617983,629.9249 54.820638,629.9249 55.1034886,630.2253 L55.787824,630.952094 C56.0703727,631.252173 56.0706745,631.738198 55.7890314,632.038918 L51.1393545,636.99984 L55.7887296,641.961082 C56.0706745,642.261802 56.0700708,642.747827 55.7875221,643.047906 L55.1031867,643.7747 C54.8203362,644.0751 54.3614964,644.0751 54.0786458,643.7747 L48.2121379,637.543893 C47.9292874,637.243494 47.9292874,636.756186 48.2121379,636.455786 Z" id="ArrowLeft"></path>
+        </g>
+    </g>
+</svg>

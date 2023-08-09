@@ -1,0 +1,95 @@
+{
+  "project_info": {
+    "project_number": "905243245500",
+    "firebase_url": "https://clube-assinante-app.firebaseio.com",
+    "project_id": "clube-assinante-app",
+    "storage_bucket": "clube-assinante-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905243245500:android:ee699f1b2faee554",
+        "android_client_info": {
+          "package_name": "br.com.gazetadopovo.clubeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905243245500-0m89sr196ej0fdbgntha4hqtp2f0m11b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gazetadopovo.clubeapp",
+            "certificate_hash": "0147eeb37d92d9964ad9afe698829d51d8bebc62"
+          }
+        },
+        {
+          "client_id": "905243245500-clcrfq5naumfgt6sj9k48rnreh1jooh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gazetadopovo.clubeapp",
+            "certificate_hash": "eb0cc5994d71f14519bd95bda20e805f660703b4"
+          }
+        },
+        {
+          "client_id": "905243245500-qgenlsq1vmuq8qo8h7gih451no1q8179.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gazetadopovo.clubeapp",
+            "certificate_hash": "01bad7bedb0e78a338410d05d6732c865b29f2c4"
+          }
+        },
+        {
+          "client_id": "905243245500-r3djkvvd45cim8abc2incrtmj942qqb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gazetadopovo.clubeapp",
+            "certificate_hash": "f3537591f3665f15ea28c5ce3741ba4c47149283"
+          }
+        },
+        {
+          "client_id": "905243245500-der4cm4mqk0dfeovv2uuncl6maarslmh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gazetadopovo.clubeapp",
+            "certificate_hash": "dd0006ebd2abbfc5c0311e9413f90bc4984174e2"
+          }
+        },
+        {
+          "client_id": "905243245500-p2i62cno9rcvtg4952r342brrkhe2p1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.gazetadopovo.clubeapp",
+            "certificate_hash": "f75af74f3c0b4964da42f4c32049a88ffb4b5fac"
+          }
+        },
+        {
+          "client_id": "905243245500-3v9ojn912b6na48bv2r2ogm78b62ivs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAts2tqcsrkHfJSavFDvf7gya7uGjEAX4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905243245500-3v9ojn912b6na48bv2r2ogm78b62ivs8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "905243245500-h5jijmjvvgqqc3chhamt15qo75h3nneu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.gazetadopovo.guiaClubeGazeta"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

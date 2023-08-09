@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="21px" viewBox="0 0 16 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>mapMarker</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Parceiro-VIP-Open" transform="translate(-27.000000, -585.000000)" fill="#30287B" fill-rule="nonzero">
+            <g id="Group-30" transform="translate(0.000000, 584.000000)">
+                <path d="M34.1778333,21.5763036 C28.12375,12.9368154 27,12.0501399 27,8.87499808 C27,4.52574328 30.5817083,1 35,1 C39.4182917,1 43,4.52574328 43,8.87499808 C43,12.0501399 41.87625,12.9368154 35.8221667,21.5763036 C35.424875,22.1412527 34.5750833,22.1412116 34.1778333,21.5763036 Z M35,12.1562473 C36.8409583,12.1562473 38.3333333,10.687191 38.3333333,8.87499808 C38.3333333,7.06280516 36.8409583,5.59374888 35,5.59374888 C33.1590417,5.59374888 31.6666667,7.06280516 31.6666667,8.87499808 C31.6666667,10.687191 33.1590417,12.1562473 35,12.1562473 Z" id="mapMarker"></path>
+            </g>
+        </g>
+    </g>
+</svg>

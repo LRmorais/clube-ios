@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>caretDown</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Agenda" transform="translate(-117.000000, -94.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group-2">
+                <g id="Topbar">
+                    <g id="Group-8" transform="translate(24.000000, 81.000000)">
+                        <g id="Group-31">
+                            <g id="Group-4">
+                                <path d="M93.5382888,13 L100.461711,13 C100.940673,13 101.180154,13.6374148 100.841114,14.0109695 L97.3807479,17.8265639 C97.1708656,18.057812 96.8291344,18.057812 96.6192521,17.8265639 L93.1588864,14.0109695 C92.8198459,13.6374148 93.0593269,13 93.5382888,13 Z" id="caretDown"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

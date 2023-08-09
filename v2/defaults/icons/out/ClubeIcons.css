@@ -1,0 +1,343 @@
+@font-face {
+    font-family: "ClubeIcons";
+    src: url("./ClubeIcons.ttf?6292b4043d2c99b8fed075ac4e6d48c0") format("truetype");
+}
+
+i[class^="icon-"]:before, i[class*=" icon-"]:before {
+    font-family: ClubeIcons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-down:before {
+    content: "\f101";
+}
+.icon-arrow-left:before {
+    content: "\f102";
+}
+.icon-arrow-right:before {
+    content: "\f103";
+}
+.icon-bell:before {
+    content: "\f104";
+}
+.icon-calendar-day:before {
+    content: "\f105";
+}
+.icon-calendar:before {
+    content: "\f106";
+}
+.icon-camera:before {
+    content: "\f107";
+}
+.icon-caret-down:before {
+    content: "\f108";
+}
+.icon-category-bakery:before {
+    content: "\f109";
+}
+.icon-category-beauty:before {
+    content: "\f10a";
+}
+.icon-category-burger:before {
+    content: "\f10b";
+}
+.icon-category-cinema:before {
+    content: "\f10c";
+}
+.icon-category-coffee:before {
+    content: "\f10d";
+}
+.icon-category-concert:before {
+    content: "\f10e";
+}
+.icon-category-coupon:before {
+    content: "\f10f";
+}
+.icon-category-drugstore:before {
+    content: "\f110";
+}
+.icon-category-education:before {
+    content: "\f111";
+}
+.icon-category-emporium:before {
+    content: "\f112";
+}
+.icon-category-event:before {
+    content: "\f113";
+}
+.icon-category-exhibition:before {
+    content: "\f114";
+}
+.icon-category-food:before {
+    content: "\f115";
+}
+.icon-category-foodtruck:before {
+    content: "\f116";
+}
+.icon-category-gym:before {
+    content: "\f117";
+}
+.icon-category-hotel:before {
+    content: "\f118";
+}
+.icon-category-ice-cream:before {
+    content: "\f119";
+}
+.icon-category-laundry:before {
+    content: "\f11a";
+}
+.icon-category-movie:before {
+    content: "\f11b";
+}
+.icon-category-museum:before {
+    content: "\f11c";
+}
+.icon-category-others:before {
+    content: "\f11d";
+}
+.icon-category-petshop:before {
+    content: "\f11e";
+}
+.icon-category-pizza:before {
+    content: "\f11f";
+}
+.icon-category-pub:before {
+    content: "\f120";
+}
+.icon-category-restaurant:before {
+    content: "\f121";
+}
+.icon-category-ride:before {
+    content: "\f122";
+}
+.icon-category-sale:before {
+    content: "\f123";
+}
+.icon-category-snack:before {
+    content: "\f124";
+}
+.icon-category-spectacles:before {
+    content: "\f125";
+}
+.icon-category-sweet:before {
+    content: "\f126";
+}
+.icon-category-theater:before {
+    content: "\f127";
+}
+.icon-category-tours:before {
+    content: "\f128";
+}
+.icon-cc-amazon-pay:before {
+    content: "\f129";
+}
+.icon-cc-amex:before {
+    content: "\f12a";
+}
+.icon-cc-apple-pay:before {
+    content: "\f12b";
+}
+.icon-cc-diners-club:before {
+    content: "\f12c";
+}
+.icon-cc-discover:before {
+    content: "\f12d";
+}
+.icon-cc-jcb:before {
+    content: "\f12e";
+}
+.icon-cc-mastercard:before {
+    content: "\f12f";
+}
+.icon-cc-paypal:before {
+    content: "\f130";
+}
+.icon-cc-stripe:before {
+    content: "\f131";
+}
+.icon-cc-visa:before {
+    content: "\f132";
+}
+.icon-center-map:before {
+    content: "\f133";
+}
+.icon-check:before {
+    content: "\f134";
+}
+.icon-checklist:before {
+    content: "\f135";
+}
+.icon-clock:before {
+    content: "\f136";
+}
+.icon-close:before {
+    content: "\f137";
+}
+.icon-coupon:before {
+    content: "\f138";
+}
+.icon-distance:before {
+    content: "\f139";
+}
+.icon-dollar:before {
+    content: "\f13a";
+}
+.icon-error:before {
+    content: "\f13b";
+}
+.icon-establishment:before {
+    content: "\f13c";
+}
+.icon-exclamation:before {
+    content: "\f13d";
+}
+.icon-facebook:before {
+    content: "\f13e";
+}
+.icon-google:before {
+    content: "\f13f";
+}
+.icon-help:before {
+    content: "\f140";
+}
+.icon-info:before {
+    content: "\f141";
+}
+.icon-instagram:before {
+    content: "\f142";
+}
+.icon-link:before {
+    content: "\f143";
+}
+.icon-list:before {
+    content: "\f144";
+}
+.icon-logo-capital:before {
+    content: "\f145";
+}
+.icon-logo:before {
+    content: "\f146";
+}
+.icon-logout:before {
+    content: "\f147";
+}
+.icon-mail:before {
+    content: "\f148";
+}
+.icon-map:before {
+    content: "\f149";
+}
+.icon-marker-2:before {
+    content: "\f14a";
+}
+.icon-marker:before {
+    content: "\f14b";
+}
+.icon-medal-outlined:before {
+    content: "\f14c";
+}
+.icon-medal:before {
+    content: "\f14d";
+}
+.icon-menu:before {
+    content: "\f14e";
+}
+.icon-more-horizontal:before {
+    content: "\f14f";
+}
+.icon-more-vertical:before {
+    content: "\f150";
+}
+.icon-newspaper:before {
+    content: "\f151";
+}
+.icon-no-internet:before {
+    content: "\f152";
+}
+.icon-no-location:before {
+    content: "\f153";
+}
+.icon-person-more:before {
+    content: "\f154";
+}
+.icon-persons:before {
+    content: "\f155";
+}
+.icon-phone:before {
+    content: "\f156";
+}
+.icon-picture:before {
+    content: "\f157";
+}
+.icon-pig:before {
+    content: "\f158";
+}
+.icon-play-circle:before {
+    content: "\f159";
+}
+.icon-plus-circle:before {
+    content: "\f15a";
+}
+.icon-plus:before {
+    content: "\f15b";
+}
+.icon-privacy:before {
+    content: "\f15c";
+}
+.icon-refresh:before {
+    content: "\f15d";
+}
+.icon-return-arrow:before {
+    content: "\f15e";
+}
+.icon-search:before {
+    content: "\f15f";
+}
+.icon-settings:before {
+    content: "\f160";
+}
+.icon-share-outlined:before {
+    content: "\f161";
+}
+.icon-share:before {
+    content: "\f162";
+}
+.icon-star-outlined:before {
+    content: "\f163";
+}
+.icon-star:before {
+    content: "\f164";
+}
+.icon-success:before {
+    content: "\f165";
+}
+.icon-ticket:before {
+    content: "\f166";
+}
+.icon-trophy:before {
+    content: "\f167";
+}
+.icon-user-check:before {
+    content: "\f168";
+}
+.icon-user:before {
+    content: "\f169";
+}
+.icon-voucher-outlined:before {
+    content: "\f16a";
+}
+.icon-voucher:before {
+    content: "\f16b";
+}
+.icon-warning:before {
+    content: "\f16c";
+}
+.icon-whatsapp:before {
+    content: "\f16d";
+}

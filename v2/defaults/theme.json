@@ -1,0 +1,48 @@
+{
+  "title": "Clube Gazeta",
+  "primaryColor": "#30287B",
+  "secondColor": "#FFCE44",
+  "tertiaryColor": "#30287B",
+  "primaryColorShade": "#1D1758",
+  "secondColorShade": "#B294FF",
+  "primaryButtonBackground": "#FFCE44",
+  "primaryButtonShadow": "#30287B",
+  "primaryButtonTextColor": "#30287B",
+  "secondButtonBackground": "#B294FF",
+  "secondButtonShadow": "#30287B",
+  "secondButtonTextColor": "#30287B",
+
+  "textPrimaryColor": "#000000",
+  "contrastTextColor": "#ffffff",
+
+  "greyishBackground": "#F1F1F1",
+  "whiteBackground": "#FFFFFF",
+  "blackBackground": "#000000",
+
+  "draggerColor": "#B3B3B3",
+  "dividerColor": "#000000",
+
+  "VIPBackground": "#FFCE44",
+  "VIPBackgroundShade": "#E09800",
+
+  "inputBackground": "#F7F7F7",
+  "inputTextColor": "#000000",
+  "checkboxDefault": "#888888",
+
+  "selfMarkerInner": "#0B78E3",
+  "selfMarkerBorder": "#FFFFFF",
+  "selfMarkerOuter": "#448EE3",
+
+  "red__main": "#D73F32",
+  "red__dark": "#A33026",
+
+  "green__light": "#20BF9C",
+  "green__main": "#13735E",
+  "green__dark": "#0F5949",
+
+  "blue__main": "#4200F5",
+
+  "yellow__main": "#E6AE10",
+
+  "switchColor": "#009688"
+}

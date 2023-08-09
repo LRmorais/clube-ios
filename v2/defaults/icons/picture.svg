@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Roteiro" transform="translate(-160.000000, -1289.000000)" fill="#3A3094" fill-rule="nonzero">
+            <g id="Place-Copy" transform="translate(0.000000, 1210.000000)">
+                <g id="Group-3-Copy-2" transform="translate(24.000000, 24.000000)">
+                    <g id="Group-8-Copy">
+                        <g id="Mask-3">
+                            <path d="M172.25,85 L139.75,85 C137.678906,85 136,83.3210938 136,81.25 L136,58.75 C136,56.6789062 137.678906,55 139.75,55 L172.25,55 C174.321094,55 176,56.6789062 176,58.75 L176,81.25 C176,83.3210938 174.321094,85 172.25,85 Z M144.75,59.375 C142.33375,59.375 140.375,61.33375 140.375,63.75 C140.375,66.16625 142.33375,68.125 144.75,68.125 C147.16625,68.125 149.125,66.16625 149.125,63.75 C149.125,61.33375 147.16625,59.375 144.75,59.375 Z M141,80 L171,80 L171,71.25 L164.162891,64.4128906 C163.796797,64.0467969 163.203203,64.0467969 162.837031,64.4128906 L152.25,75 L147.912891,70.6628906 C147.546797,70.2967969 146.953203,70.2967969 146.587031,70.6628906 L141,76.25 L141,80 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

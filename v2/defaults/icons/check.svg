@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Categoria-Filtro" transform="translate(-236.000000, -198.000000)" fill="#30287B" fill-rule="nonzero">
+            <g id="check-square-copy" transform="translate(23.000000, 194.000000)">
+                <path d="M224.630464,6.35930357 L217.696085,13.2380357 C217.507045,13.4255491 217.201768,13.4243438 217.014254,13.2353036 L213.366804,9.55832143 C213.17929,9.36928125 213.180496,9.06400446 213.369576,8.87645089 L214.282393,7.97098661 C214.471433,7.78347321 214.77671,7.78467857 214.964223,7.97375893 L217.36658,10.3956027 L223.045902,4.76192411 C223.234942,4.57441071 223.540219,4.57561607 223.727732,4.76465625 L224.633196,5.67743304 C224.82071,5.86651339 224.819504,6.17179018 224.630464,6.35930357 Z" id="check"></path>
+            </g>
+        </g>
+    </g>
+</svg>

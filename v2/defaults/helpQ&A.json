@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "O que é o Clube Gazeta?",
+    "content": "<p>O Clube Gazeta é um clube de assinatura feito para pessoas que gostam de economizar de verdade e viver grandes experiências. Com a maior rede de parceiros de Curitiba e região, o Clube oferece descontos e benefícios exclusivos em mais de 1000 estabelecimentos, além de shows e eventos. Tudo para você viver mais e pagar menos.</p><p>Integrando aplicativo, site e redes sociais, nossos assinantes têm acesso, além dos descontos, a novidades na cidade, sugestões de roteiros, dicas, promoções e muito mais.</p>"
+  },
+  {
+    "id": 2,
+    "title": "Como obtenho o desconto no estabelecimento?",
+    "content": "<ul><li>Para utilizar seu desconto, primeiro busque o estabelecimento pelo nome e acesse o seu card;</li><li>Clique em resgatar desconto; </li><li>Sua câmera irá abrir (importante: permita que o app acesse sua câmera); </li><li>Aponte para o QR Code que estará no estabelecimento e aguarde o app ler; </li><li>Aparecerá uma tela com a confirmação do seu desconto; </li><li>Apresente para o atendente na hora de pagar e aproveite seu desconto.</li></ul><p>Caso você enfrente problemas com o QR Code, também é possível informar o seu CPF, mas essa opção não permite que você aproveite algumas funcionalidades do app, como contabilizar sua economia e avaliar o estabelecimento.</p>"
+  },
+  {
+    "id": 3,
+    "title": "O desconto é válido sempre que eu quiser?",
+    "content": "<p>Cada estabelecimento possui uma regra de uso específica. Para saber mais, basta acessar o card do parceiro, e verificar o item regras de uso. Nele constam informações como data de uso e de validade, horário, a porcentagem de desconto oferecido e se há restrições de produtos. Confira antes de utilizar seu desconto para evitar desentendimentos na hora do pagamento.</p>"
+  },
+  {
+    "id": 4,
+    "title": "Posso resgatar quantos descontos eu quiser?",
+    "content": "<p>Não há limite para os resgates, mas eles não são cumulativos. Ou seja, você pode utilizar quantas vezes você quiser os seus descontos, mas não conseguirá utilizá-los simultaneamente em um estabelecimento.</p><p>Lembre-se sempre de conferir as regras de uso de cada parceiro.</p>"
+  },
+  {
+    "id": 5,
+    "title": "Posso utilizar meu benefício para outras pessoas?",
+    "content": "<p>Infelizmente não. O benefício é exclusivo para o assinante do Clube Gazeta mediante comprovação.</p>"
+  },
+  {
+    "id": 6,
+    "title": "No restaurante ou no bar, posso pagar a conta da mesa inteira?",
+    "content": "<p>Também não.</p><p>Se os acompanhantes não forem assinantes, o valor total da conta será dividido pelo número de pessoas presentes na mesa e o desconto concedido será calculado para uma pessoa, mesmo que o assinante seja responsável pelo pagamento total da conta.</p><p>Ex: Tem 5 amigos em uma mesa, mas apenas um assinante. A conta final deu 100 reais. O parceiro oferece desconto de 20%. O cálculo será feito da seguinte maneira: Divide-se o total de 100 reais por 5 pessoas, o que dá 25 reais por cliente. Calcula-se então 20% dos 25 reais por pessoa, e não do total. O desconto final aplicado à conta será de 5 reais.</p>"
+  },
+  {
+    "id": 7,
+    "title": "Como sei as condições de uso do desconto?",
+    "content": "<p>Cada estabelecimento tem seu próprio regulamento para o uso de descontos. Para saber quais são as condições de cada um, basta acessar o card do estabelecimento e verificar a aba “regras de uso”. Nele constam informações como data de uso e de validade, horário, a porcentagem de desconto oferecido e se há restrições de produtos.</p>"
+  },
+  {
+    "id": 8,
+    "title": "Os descontos são cumulativos?",
+    "content": "<p>Não são cumulativos. Você não pode utilizar mais de um mesmo desconto de forma simultânea. Entretanto, pode utilizar sempre que desejar, de acordo com a regras de uso dos parceiros.</p>"
+  },
+  {
+    "id": 9,
+    "title": "Os descontos valem para promoções nos parceiros?",
+    "content": "<p>Nossos descontos sempre valem para o preço padrão vigente nos estabelecimentos. Caso o parceiro esteja com alguma promoção, é necessário conferir as regras de uso ou verificar diretamente com ele se o desconto do Clube pode ser aplicado.</p>"
+  },
+  {
+    "id": 10,
+    "title": "Por que receber notificações do aplicativo?",
+    "content": "<p>Por meio das notificações, podemos enviar novidades fresquinhas, promoções relâmpago, ofertas por período limitado e indicações de parceiros. Por isso, mantenha as notificações sempre ligadas.</p>"
+  },
+  {
+    "id": 11,
+    "title": "Não estou recebendo notificações do aplicativo. O que faço?",
+    "content": "<p>Para começar a receber as notificações, acesse a aba de configurações, no menu lateral do app, e clique no botão “ativar notificações”.</p>"
+  },
+  {
+    "id": 12,
+    "title": "Como funciona a geolocalização?",
+    "content": "<p>A geolocalização é uma funcionalidade que identifica a sua localização por meio do seu smartphone. Com essa função ativada, conseguimos encontrar os descontos próximos a você e facilitar sua busca por estabelecimentos parceiros.   Importante: pode ser que o aplicativo peça permissão para acesso à geolocalização mais de uma vez. Isso ocorre por protocolo de segurança, pode permitir sempre.</p>"
+  }
+]

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>refresh</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HomeMap" transform="translate(-309.000000, -109.000000)" fill="#30287B" fill-rule="nonzero">
+            <g id="Buttons" transform="translate(288.000000, 94.000000)">
+                <g id="Refresh" transform="translate(6.000000, 0.000000)">
+                    <path d="M27.8003003,17.1931138 L30,15 L30,21.5784057 L23.4018393,21.5784057 L26.4367492,18.5525823 C25.4251126,17.5439746 24.017455,16.8862275 22.4774775,16.8862275 C19.3543544,16.8862275 16.8468468,19.3862275 16.8468468,22.5 C16.8468468,25.6137725 19.3543544,28.1137725 22.4774775,28.1137725 C24.9408784,28.1137725 27.0523649,26.5784057 27.8003003,24.3862275 L29.7362988,24.3862275 C28.9001502,27.6319237 25.9975601,30 22.4784159,30 C18.3436562,30 15,26.6233159 15,22.5 C15,18.3766841 18.3436562,15 22.4784159,15 C24.5457958,15 26.4376877,15.8336452 27.8012387,17.1931138 L27.8003003,17.1931138 Z" id="refresh"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

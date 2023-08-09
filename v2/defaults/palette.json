@@ -1,0 +1,247 @@
+{
+  "splash": {
+    "screen": {
+      "background": "#30287b"
+    },
+    "loading": "#ffffff"
+  },
+  "auth_switch": {
+    "screen": {
+      "background": "#30287b"
+    },
+    "header": {
+      "background": "#30287b"
+    },
+    "new_header": {
+      "background": "#ffffff"
+    },
+    "text": {
+      "title": "#ffffff",
+      "paragraph": "#ffffff"
+    },
+    "sign_in_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#30287b"
+    },
+    "sign_up_button": {
+      "main": "#262061",
+      "shadow": "#b294ff",
+      "text": "#ffffff"
+    },
+    "guest_link": "#ffffff"
+  },
+  "sign_in": {
+    "screen": {
+      "background": "#30287b"
+    },
+    "header": {
+      "background": "#30287b",
+      "text": "#ffc133",
+      "action": "#ffffff"
+    },
+    "section_title": "#ffffff",
+    "input": {
+      "background": "#f7f7f7",
+      "label": "#f7f7f7",
+      "feedback": {
+        "error": "#d73f32",
+        "success": "#13735e",
+        "warning": "#e6ae10"
+      },
+      "placeholder": "#00000077",
+      "text": "#000000"
+    },
+    "sign_in_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#30287b"
+    },
+    "forgot_password_link": "#fbbb33",
+    "divider": "#262061",
+    "sign_up_button": {
+      "main": "#262061",
+      "shadow": "#b294ff",
+      "text": "#ffffff"
+    },
+    "loading": "#ffffff",
+    "feedback": {
+      "background": "#d73f32",
+      "text": "#ffffff",
+      "button": "#a33026"
+    }
+  },
+  "companies": {
+    "screen": {
+      "background": "#30287b"
+    },
+    "header": {
+      "background": "#000000",
+      "text": "#ffffff",
+      "action": "#ffffff"
+    },
+    "section_title": "#ffffff",
+    "input": {
+      "background": "#f7f7f7",
+      "label": "#f7f7f7",
+      "feedback": {
+        "error": "#d73f32",
+        "success": "#13735e",
+        "warning": "#e6ae10"
+      },
+      "placeholder": "#00000077",
+      "text": "#000000"
+    },
+    "sign_in_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#000000"
+    },
+    "forgot_password_link": "#fbbb33",
+    "divider": "#262061",
+    "sign_up_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#000000"
+    },
+    "loading": "#ffffff",
+    "feedback": {
+      "background": "#d73f32",
+      "text": "#ffffff",
+      "button": "#a33026"
+    }
+  },
+  "forget_password": {
+    "screen": {
+      "background": "#30287b"
+    },
+    "header": {
+      "background": "#30287b",
+      "text": "#ffffff"
+    },
+    "section_title": "#ffffff",
+    "input": {
+      "background": "#f7f7f7",
+      "feedback": {
+        "error": "#d73f32",
+        "success": "#13735e",
+        "warning": "#e6ae10"
+      },
+      "label": "#f7f7f7",
+      "placeholder": "#00000077",
+      "text": "#000000",
+      "subtitle": "#f7f7f7"
+    },
+    "payment_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#30287b"
+    },
+    "divider": "#262061",
+    "subscriber_button": {
+      "main": "#262061",
+      "shadow": "#b294ff",
+      "text": "#ffffff"
+    },
+    "loading": "#ffffff",
+    "feedback": {
+      "background": "#30287b",
+      "text": "#ffffff",
+      "button": "#262061"
+    }
+  },
+  "sign_up": {
+    "forgot_password_link": "#fbbb33",
+    "screen": {
+      "background": "#30287b"
+    },
+    "header": {
+      "background": "#30287b",
+      "text": "#ffffff"
+    },
+    "section_title": "#ffffff",
+    "input": {
+      "background": "#f7f7f7",
+      "feedback": {
+        "error": "#d73f32",
+        "success": "#13735e",
+        "warning": "#e6ae10"
+      },
+      "label": "#f7f7f7",
+      "placeholder": "#00000077",
+      "text": "#000000",
+      "subtitle": "#f7f7f7"
+    },
+    "payment_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#30287b"
+    },
+    "divider": "#262061",
+    "subscriber_button": {
+      "main": "#262061",
+      "shadow": "#b294ff",
+      "text": "#ffffff"
+    },
+    "loading": "#ffffff",
+    "feedback": {
+      "background": "#d73f32",
+      "text": "#ffffff",
+      "button": "#a33026"
+    },
+    "userBox":{
+        "color": "#30287b",
+        "background": "#ffffff"
+    }
+
+  },
+  "payment": {
+    "screen": {
+      "background": "#30287b"
+    },
+    "header": {
+      "background": "#30287b",
+      "text": "#ffffff"
+    },
+    "section_title": "#ffffff",
+    "radio_box": {
+      "background": "#1c1747",
+      "inner_ball": "#6553ff",
+      "default": "#f7f7f7cc",
+      "default_selected": "#f7f7f7",
+      "text": "#f7f7f7cc",
+      "text_selected": "#f7f7f7"
+    },
+    "input": {
+      "background": "#f7f7f7",
+      "label": "#f7f7f7",
+      "feedback": {
+        "error": "#d73f32",
+        "success": "#13735e",
+        "warning": "#e6ae10"
+      },
+      "text": "#000000"
+    },
+    "subscription_button": {
+      "main": "#fbbb33",
+      "shadow": "#ffffff",
+      "text": "#30287b"
+    },
+    "message_box": {
+      "background": "#d73f32",
+      "text": "#ffffff"
+    },
+    "loading": "#ffffff",
+    "feedback": {
+      "success": {
+        "background": "#13735e",
+        "text": "#ffffff",
+        "button": "#0f5949"
+      },
+      "error": {
+        "background": "#d73f32",
+        "text": "#ffffff"
+      }
+    }
+  }
+}
