@@ -705,7 +705,6 @@ DEPENDENCIES:
   - "RNFBApp (from `../node_modules/@react-native-firebase/app`)"
   - "RNFBMessaging (from `../node_modules/@react-native-firebase/messaging`)"
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
-  - "RNGoogleSignin (from `../node_modules/@react-native-community/google-signin`)"
   - RNPermissions (from `../node_modules/react-native-permissions`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
@@ -891,8 +890,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/messaging"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
-  RNGoogleSignin:
-    :path: "../node_modules/@react-native-community/google-signin"
   RNPermissions:
     :path: "../node_modules/react-native-permissions"
   RNReanimated:

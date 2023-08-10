@@ -6,7 +6,7 @@ import { useContext } from '../context';
 
 const GoogleButton = () => {
   const {
-    signUpWithGoogle: handlePress,
+    // signUpWithGoogle: handlePress,
   } = useContext();
 
   return (
@@ -19,7 +19,7 @@ const GoogleButton = () => {
       }}
       icon="google"
       textSize="small"
-      onPress={handlePress}
+      // onPress={handlePress}
     />
   );
 };

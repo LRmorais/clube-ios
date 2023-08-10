@@ -6,7 +6,7 @@ import React, {
   useEffect,
 } from 'react';
 import { Keyboard, Platform, Linking } from 'react-native';
-import { GoogleSignin, statusCodes } from '@react-native-community/google-signin';
+// import { GoogleSignin, statusCodes } from '@react-native-community/google-signin';
 import FBSDK, { AppEventsLogger } from 'react-native-fbsdk';
 import analytics from '@react-native-firebase/analytics';
 import { appleAuth } from '@invertase/react-native-apple-authentication';
@@ -168,46 +168,46 @@ const Provider = props => {
     );
   }
 
-  const signInWithGoogle = async () => {
-    dispatchRecord('Entrar', {
-      value: 'Google',
-    });
-    try {
-      GoogleSignin.configure({
-        scopes: [], // what API you want to access on behalf of the user, default is email and profile
-        webClientId:
-          '905243245500-3v9ojn912b6na48bv2r2ogm78b62ivs8.apps.googleusercontent.com',
-        androidClientId:
-          '905243245500-0m89sr196ej0fdbgntha4hqtp2f0m11b.apps.googleusercontent.com',
-        iosClientId:
-          '905243245500-h5jijmjvvgqqc3chhamt15qo75h3nneu.apps.googleusercontent.com',
-        offlineAccess: true,
-        forceConsentPrompt: true,
-      });
-      await GoogleSignin.hasPlayServices();
-      const userInfo = await GoogleSignin.signIn();
-      console.log('Aqui ');
-      loginSocial(
-        'google',
-        userInfo.user.id,
-        userInfo.user.name,
-        userInfo.user.photo,
-        userInfo.user.email,
-      );
-    } catch (error) {
-      console.log('Não foi' + JSON.stringify(error));
-      console.log(error.code);
-      if (error.code === statusCodes.SIGN_IN_CANCELLED) {
-        // user cancelled the login flow
-      } else if (error.code === statusCodes.IN_PROGRESS) {
-        // operation (e.g. sign in) is in progress already
-      } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
-        // play services not available or outdated
-      } else {
-        // some other error happened
-      }
-    }
-  };
+  // const signInWithGoogle = async () => {
+  //   dispatchRecord('Entrar', {
+  //     value: 'Google',
+  //   });
+  //   try {
+  //     GoogleSignin.configure({
+  //       scopes: [], // what API you want to access on behalf of the user, default is email and profile
+  //       webClientId:
+  //         '905243245500-3v9ojn912b6na48bv2r2ogm78b62ivs8.apps.googleusercontent.com',
+  //       androidClientId:
+  //         '905243245500-0m89sr196ej0fdbgntha4hqtp2f0m11b.apps.googleusercontent.com',
+  //       iosClientId:
+  //         '905243245500-h5jijmjvvgqqc3chhamt15qo75h3nneu.apps.googleusercontent.com',
+  //       offlineAccess: true,
+  //       forceConsentPrompt: true,
+  //     });
+  //     await GoogleSignin.hasPlayServices();
+  //     const userInfo = await GoogleSignin.signIn();
+  //     console.log('Aqui ');
+  //     loginSocial(
+  //       'google',
+  //       userInfo.user.id,
+  //       userInfo.user.name,
+  //       userInfo.user.photo,
+  //       userInfo.user.email,
+  //     );
+  //   } catch (error) {
+  //     console.log('Não foi' + JSON.stringify(error));
+  //     console.log(error.code);
+  //     if (error.code === statusCodes.SIGN_IN_CANCELLED) {
+  //       // user cancelled the login flow
+  //     } else if (error.code === statusCodes.IN_PROGRESS) {
+  //       // operation (e.g. sign in) is in progress already
+  //     } else if (error.code === statusCodes.PLAY_SERVICES_NOT_AVAILABLE) {
+  //       // play services not available or outdated
+  //     } else {
+  //       // some other error happened
+  //     }
+  //   }
+  // };
 
   async function signInWithApple() {
     dispatchRecord('Entrar', {
@@ -399,7 +399,7 @@ const Provider = props => {
     checkUsernameError,
     checkPasswordError,
     signInWithFacebook,
-    signInWithGoogle,
+    // signInWithGoogle,
     signInWithApple,
     focusPasswordField,
     signIn,

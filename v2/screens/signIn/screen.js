@@ -25,7 +25,7 @@ const Screen = () => {
     handleSignUp,
     signInWithApple,
     signInWithFacebook,
-    signInWithGoogle,
+    // signInWithGoogle,
   } = useContext();
 
   return (
@@ -78,7 +78,7 @@ const Screen = () => {
               </CircleButton>
             )}
 
-            {Platform.OS === 'ios' ? null : (
+            {/* {Platform.OS === 'ios' ? null : (
               <CircleButton action={signInWithGoogle}>
                 <Icon
                   name="google"
@@ -86,7 +86,7 @@ const Screen = () => {
                   color={theme.palette.google.main}
                 />
               </CircleButton>
-            )}
+            )} */}
           </View>
         </View>
       </ScrollView>

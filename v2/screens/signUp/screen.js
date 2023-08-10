@@ -54,9 +54,9 @@ const Screen = () => {
                   <FacebookButton />
                 </View>
                 <Spacer size={2} fixedSize horizontal />
-                <View style={styles.socialButton}>
+                {/* <View style={styles.socialButton}>
                   <GoogleButton />
-                </View>
+                </View> */}
               </View>
               {/* {Platform.OS === 'ios' && (
                 <>
