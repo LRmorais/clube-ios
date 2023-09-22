@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ScrollView, Text, StyleSheet } from 'react-native';
+import { View, ScrollView, Text, StyleSheet, Platform } from 'react-native';
 
 import Header from './parts/header';
 import Loading from './parts/loading';
@@ -7,6 +7,7 @@ import Loading from './parts/loading';
 import { RoundedButton } from '../../components/RoundedButton';
 import Spacer from '../../components/spacer';
 import CompanyListPicker from './parts/companyListPicker';
+import CompanyListIOS from './parts/companySearchIOS';
 import {useContext} from './context';
 
 import { theme } from '../../utils/style';
@@ -29,7 +30,14 @@ const Screen = () => {
         </View>
 
         <View style={styles.content}>
+        {Platform.OS === 'ios' ? (
+          <CompanyListIOS />
+        ) : (
           <CompanyListPicker />
+        )
+     
+      }
+
         </View>
 
         <View style={styles.content}>

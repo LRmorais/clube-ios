@@ -40,10 +40,10 @@ const PermissionsCarousel = () => {
     floatingButtonProps: {
       text: 'Continuar',
       colors: floatingButtonsColors,
-      onPress: handleLocationMainPress,
+      onPress: handleLocationMainPress, // AÇÃO
     },
     // extraAction: {
-    //   text: 'Pular',
+    //   text: 'Ativar mais tarde',
     //   color: extraActionColor,
     //   onPress: handleLocationExtraPress,
     // },
@@ -110,8 +110,8 @@ const PermissionsCarousel = () => {
     },
   };
 
-  // const data = [locationData, notificationsData];
-  const data = [ notificationsData ];
+  const data = [locationData, notificationsData];
+  // const data = [ notificationsData ];
 
   function renderItem({item}) {
     return <CardCarouselItem {...item} />;
